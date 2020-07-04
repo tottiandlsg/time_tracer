@@ -320,7 +320,7 @@ static ssize_t enable_write(struct file *file, const char __user *buf, size_t co
         return retval;
     }
     if(!!enable == !! trace_enable)
-    {
+    {
         return count;
     }
 
